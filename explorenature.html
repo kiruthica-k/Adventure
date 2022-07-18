@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial scaler=1.0">
+    <link rel="stylesheet" href="./proj2.css" />
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+
+        </ul>
+        <img class="menu" src="./icons8-menu-30.png" />
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Adventure Travel & Nature Tours</h2>
+            <div class="line"></div>
+            <h1>Explore The Colourful World</h1>
+            <a class="ctn" href="#">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Events -->
+    <section class="events">
+        <div class="title" >
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row" >
+            <div class="col"><img class="innerimg" src="./tent-g175d23158_1920.jpg">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                <a class="ctn" href="#">Learn More</a>
+            </div>
+            <div class="col"><img  src="./backpack-gcb2fe806d_1920.jpg">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                <a class="ctn" href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours" style="width: 100%;">
+        <div class="row" >
+            <div class="col2 content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                     in reprehenderit.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col2 image-col" >
+                <div class="image-gallery">
+                    <img src="./mountains-gedb3bb23c_1920.jpg" />
+                    <img src="./hd-wallpaper-g715f43a20_1920.jpg" />
+                    <img src="./pexels-julius-silver-753626.jpg" />
+                    <img src="./road-g1193a4cba_1920.jpg" />
+
+                </div>
+            </div>
+        </div>
+
+        <footer >
+            <div class="footerdiv">
+                <p class="footerpara">123 Fifth Avenue,NY 10160,New York,USA|Phone:800-123-456|
+                    Email:contact@gmail.com
+                </p>
+                <p class="footerpara">Copyright@2020Outdoor Adventure</p>
+            </div>
+
+        </footer>
+
+
+
+    </section>
+    <script>
+        var menu = document.querySelector('.menu');
+        var navlinks = document.querySelector('.nav-link');
+        menu.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    color: whitesmoke;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-link li {
+    margin: 0 30px;
+    list-style-type: none;
+    font-size: 2.5vmin;
+}
+.nav-link a{
+    color: whitesmoke;
+}
+
+header {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    background-image: url('./castelmezzano-gbb73d0675_1920.jpg');
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-content {
+    text-align: center;
+    /* margin-bottom: 150px; */
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+    color: whitesmoke
+}
+
+.line {
+    width: 18vmin;
+    height: 4px;
+    background-color: rgb(252, 77, 147);
+    ;
+    margin: auto;
+    border-radius: 6px;
+
+
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: rgb(252, 77, 147);
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+section {
+    width: 70%;
+    /* border:1px solid black; */
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.row {
+    /* border:1px solid black; */
+    display: flex;
+    width: 100%;
+
+}
+
+.row .col img {
+    width: 60%;
+    
+}
+
+.row .col {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+}
+.col img{
+    height: auto;
+    width:auto;
+}
+
+.events .row {
+    margin-top: 50px;
+   
+
+}
+
+.events h4 {
+    font-size: 3vmin;
+    color: brown;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.events p {
+    color: brown;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.events .ctn {
+    margin-top: 30px;
+}
+
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./sunset-ge19a0e53d_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.explore-content {
+    /* border:1px solid black ; */
+    width: 70%;
+    padding: 50px 50px 0px 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.explore-content h1 {
+    font-size: 7vmin;
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+
+.explore-content .line {
+    margin-bottom: 60px;
+}
+
+.explore-content p {
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.explore-content .ctn {
+    margin-top: 35px;
+
+}
+.tours{
+    /* border: 1px solid black; */
+    margin-top: 20vh;
+    height: 75vh;
+}
+.tours h1{
+    text-align: center;
+}
+.tours .row{
+    display: flex;
+    width: 100%;
+}
+.row .col2 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    /* border: 10px solid purple; */
+}
+
+.content-col {
+    width: 40%;
+    height: 70vh;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+.content-col .line {
+    margin: auto;
+    
+}
+.content-col h1{
+    font-size: 4vmin;
+}
+.content-col p{
+padding : 15px;
+
+/* border: 1px solid black; */
+}
+.content-col a{
+    margin-left: 10px;
+   
+}
+
+.image-col {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.tours .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.image-gallery img {
+    width: 40%;
+    margin: 10px;
+
+}
+footer{
+    margin-top: 20vh;
+}
+
+.footerdiv {
+    background-color: rgb(73, 70, 146);
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerpara {
+    color: whitesmoke;
+}
+
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform:scale(1.2);
+}
+
+.ctn:hover{
+    background-color: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px black;
+    
+}
+li a:hover{
+    color: #fc036b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:850px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+
+    }
+
+    .nav-link {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: blueviolet;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+
+
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav-link li {
+        margin: 30px auto;
+
+    }
+    .events .row{
+        display: block;
+        text-align: center;
+    } 
+    .explore-content p {
+        color: white;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+   
+         
+}
